@@ -1,24 +1,45 @@
-.main{
-    background-color: rgb(40, 41, 42);
+.main {
+  background-color: rgb(40, 41, 42);
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .main-container {
-    background-image: linear-gradient(to bottom, rgba(23, 23, 23, 0.7), rgba(33, 33, 33, 0.7)), 
-    url('assets/main.bg.jpg'); 
-   background-repeat:no-repeat ;
-   background-size: cover;
-   height: 210px;
-   margin: 20px; 
-   border-radius: 20px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(23, 23, 23, 0.7),
+      rgba(33, 33, 33, 0.7)
+    ),
+    url("assets/main.bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 210px;
+  margin: 20px;
+  border-radius: 20px;
 }
-.main-container h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20%;
+.main-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20%;
+}
+.sec_container {
+  width: 40%;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.search-container img {
+  background-color: #000; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5), 0 0 20px rgba(138, 43, 226, 0.5), 0 0 30px rgba(138, 43, 226, 0.5), 0 0 40px rgba(138, 43, 226, 0.5), 0 0 30px rgba(138, 43, 226, 0.5), 0 0 30px rgba(138, 43, 226, 0.5), 0 0 70px rgba(138, 43, 226, 0.5);
+}
+.box{
+    padding-top: 10%;
 }
