@@ -4,7 +4,7 @@ import "../main.css";
 const banner2 = () => {
   return (
     <div>
-      <div className="box1 pt-5">
+      <div className="box1">
         <div className="search-container d-flex align-items-center justify-content-center ">
         <img
               src={b2}
@@ -12,8 +12,8 @@ const banner2 = () => {
               className="img-fluid rounded image2"
             />
           <div className="sec_container text-white ">
-            <button className="btn btn-secondary m-2">Feat</button>
-            <h3 className="text-white p-1 w-40">
+            <button className="btn btn-secondary mt-3">Feat</button>
+            <h3 className="text-white pt-3 w-40">
             Crafting Your E-Home: Elevate Your Web Presence with Expert Guidance
             </h3>
             <p className="text-white p-1">

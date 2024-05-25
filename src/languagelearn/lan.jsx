@@ -8,7 +8,7 @@ const lan = () => {
         <div className="search-container">
           <div className="sec_container text-white ">
             <button className="btn btn-secondary m-2">Feat</button>
-            <h4 className="text-white w-40">
+            <h4 className="text-white pt-3 w-40">
               Unlocking Multilingual Mastery: Empower Your Language Skills with
               Versatility
             </h4>

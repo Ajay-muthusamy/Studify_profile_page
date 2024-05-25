@@ -14,9 +14,9 @@ const header = () => {
       <div className="box  pt-5">
         <div className="search-container d-flex align-items-center justify-content-center  ">
     
-          <div className="sec_container text-white ">
+          <div className="sec_container text-white  ">
             <button className="btn btn-secondary m-2">search</button>
-            <h3 className="text-white p-1 w-40">
+            <h3 className="text-white p-1 ">
               Search and get related <br />
               suggestions
             </h3>
@@ -43,7 +43,7 @@ const header = () => {
               alt=""
               className="img-fluid rounded"
             />
-
+          <hr className="text-white "/>
         </div>
       </div>
     </div>
