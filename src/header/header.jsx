@@ -13,6 +13,7 @@ const header = () => {
       </h1>
       <div className="box  pt-5">
         <div className="search-container d-flex align-items-center justify-content-center  ps-5  ">
+    
           <div className="sec_container text-white ">
             <button className="btn btn-secondary">search</button>
             <h3 className="text-white p-1 w-40">
@@ -24,25 +25,23 @@ const header = () => {
               searches based on similar things others are looking for.
             </p>
             <ul className="text">
-              <li className="pt-1">
+              <li className="pt-2">
                 Quickly open a new tab to explore more topics without leaving
                 your current page.
               </li>
-              <li className="pt-1">
+              <li className="pt-2">
                 Click on the search box to reveal related suggestions instantly.
               </li>
-              <li className="pt-1">
+              <li className="pt-2">
                 Select any suggested topic to dive into search results and
                 discover more.
               </li>
             </ul>
           </div>
-
-            <img
+          <img
               src={one}
               alt=""
               className="img-fluid rounded"
-              style={{ maxWidth: "40%", height: "auto" }}
             />
 
         </div>
