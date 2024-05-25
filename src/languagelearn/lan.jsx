@@ -5,10 +5,10 @@ const lan = () => {
   return (
     <div>
       <div className="box3 pt-5">
-        <div className="search-container d-flex align-items-center justify-content-center  ps-5  ">
+        <div className="search-container">
           <div className="sec_container text-white ">
-            <button className="btn btn-secondary">Feat</button>
-            <h4 className="text-white p-1 w-40">
+            <button className="btn btn-secondary m-2">Feat</button>
+            <h4 className="text-white w-40">
               Unlocking Multilingual Mastery: Empower Your Language Skills with
               Versatility
             </h4>

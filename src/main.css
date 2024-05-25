@@ -85,10 +85,13 @@ ul{
     flex-direction: column;
   }
   .sec_container{
-    width: 100%;
+    width: 80%;
   }
   .search-container img{
-    width: 100%;
+    width: 90%;
+  }
+  .box3{
+    width: 80%;
   }
 
 
@@ -102,13 +105,11 @@ ul{
     align-items: center;
   }
   .sec_container{
-    padding-bottom: 5%;
-    width: 100%;
+    width: 80%;
     font-size: 90%;
   }
   .search-container img{
-    width: 95%;
-    margin: 10%;
+    width:90%;
   }
   .box3
   {
@@ -116,8 +117,15 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 7%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+    padding: 1%;
+    width: 90%;
   }
+
   .bodycard{
     flex-direction: column;
     justify-content: center;

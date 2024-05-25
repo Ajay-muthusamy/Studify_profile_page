@@ -5,14 +5,14 @@ const banner2 = () => {
   return (
     <div>
       <div className="box1 pt-5">
-        <div className="search-container d-flex align-items-center justify-content-center  ps-5  ">
+        <div className="search-container d-flex align-items-center justify-content-center ">
         <img
               src={b2}
               alt=""
               className="img-fluid rounded image2"
             />
           <div className="sec_container text-white ">
-            <button className="btn btn-secondary">Feat</button>
+            <button className="btn btn-secondary m-2">Feat</button>
             <h3 className="text-white p-1 w-40">
             Crafting Your E-Home: Elevate Your Web Presence with Expert Guidance
             </h3>

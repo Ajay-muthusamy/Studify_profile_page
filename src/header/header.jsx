@@ -12,10 +12,10 @@ const header = () => {
         </p>
       </h1>
       <div className="box  pt-5">
-        <div className="search-container d-flex align-items-center justify-content-center  ps-5  ">
+        <div className="search-container d-flex align-items-center justify-content-center  ">
     
           <div className="sec_container text-white ">
-            <button className="btn btn-secondary">search</button>
+            <button className="btn btn-secondary m-2">search</button>
             <h3 className="text-white p-1 w-40">
               Search and get related <br />
               suggestions
