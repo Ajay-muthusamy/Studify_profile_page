@@ -80,6 +80,22 @@ ul{
   height: auto;
   max-width: 600px;
 }
+.floating-image {
+  position: relative;
+  animation: floatAnimation 3s infinite alternate; 
+}
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px); 
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 @media (max-width: 768px) {
   .search-container{
     display: flex;
@@ -132,5 +148,12 @@ ul{
     justify-content: center;
     gap: 10%;
     align-items: center;
+  }
+  .footer{
+    font-size: 0.7rem;
+
+  }
+  .studify ul{
+    flex-direction: column;
   }
 }
